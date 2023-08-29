@@ -24,5 +24,7 @@ namespace SistemaVenta.IOC
                            options.UseSqlServer(configuration.GetConnectionString("CademaSQL")));
         }
 
+
+
     }
 }
